@@ -126,7 +126,9 @@ docker build -t edufin-app .
 
 Step 2: Run Docker container
 docker run -p 5000:5000 edufin-app
-Team Collaboration
+
+
+# Dev_Team Collaboration
 
 This project was collaboratively developed by:
 
