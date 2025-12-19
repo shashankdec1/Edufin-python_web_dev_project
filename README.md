@@ -7,10 +7,20 @@ We used a Python virtual environment during development. The environment itself 
 EduFin is a Flask-based web application designed to help students track and manage their education-related expenses such as tuition fees, books, rent, and daily academic costs.
 
 This application demonstrates the use of:
+
+
 Backend logic with Python Flask
+
+
 Frontend–backend interaction
+
+
 SQLite3Database integration
+
+
 Containerization using Docker
+
+
 Creating Venv and gitgnore for best structure(venv cant be accessed in different PC)
 while following clean coding practices and minimal project structure.
 
@@ -22,30 +32,68 @@ EduFin addresses this problem by providing a centralized expense tracking system
 
 # Our project Edufin Key features
 1.Add education-related expenses
+
+
 2.View all recorded expenses
+
+
 3.Delete existing expenses
+
+
 4.Automatic date and time generation on the backend
+
+
 5.Monthly expense summary
+
+
 6.REST API endpoint returning expenses in JSON format
+
+
 7.Clean blue-themed frontend UI
+
+
 8.SQLite database integration
+
+
 9.Dockerized application for easy deployment
 
 # Technology used
+
  Backend: Python, Flask
+ 
+ 
  Frontend: HTML, CSS (Jinja2 Templates)
+ 
+ 
  Database: SQLite
+ 
+ 
  Containerization: Docker
+ 
+ 
  Version Control: Git & GitHub
 
 
 # Application Routes we used total 6 routes
+ 
  Route            Description                 
-`/`              Landing / introduction page 
+
+
+/`              Landing / introduction page 
+
+ 
  `/add`           Add a new expense           
+ 
+ 
  `/expenses`      View all expenses           
+ 
+ 
  `/summary`       Monthly expense summary     
+ 
+ 
  `/api/expenses`  JSON API endpoint           
+ 
+ 
  `/delete/<id>`   Delete an expense     
 
 # virtual environment 
@@ -56,12 +104,18 @@ but all the dependencies are mentioned in requirements.txt.
 # procedure to run the application(local)
 
 write in git bash
-pip install -r requirements.txt (# this command is used to install all the required packages)
+
+
+"pip install -r requirements.txt" (# this command is used to install all the required packages)
+
+
 python app.py (# to run the program
 
 # procedure to run using docker
 
 docker build -t edufin-app .
+
+
 docker run -p 5000:5000 edufin-app
 
 # developers collaboration(Team collaboration)
