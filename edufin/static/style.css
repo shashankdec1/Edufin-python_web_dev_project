@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f8ff;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background: #0a3d91;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Layout */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    color: #0a3d91;
+}
+
+/* Buttons */
+.btn {
+    background: #0a3d91;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.btn.secondary {
+    background: #5a8dee;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Forms */
+.form {
+    display: grid;
+    gap: 12px;
+}
+
+.form input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background: #0a3d91;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    color: #777;
+}
+
+.btn.danger {
+    background: #d9534f;
+}
+
+.btn.danger:hover {
+    opacity: 0.85;
+}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <h2>All Expenses</h2>
+
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Category</th>
+            <th>Amount (€)</th>
+            <th>Date</th>
+            <th>Action</th>
+        </tr>
+
+        {% for e in expenses %}
+        <tr>
+            <td>{{ e.title }}</td>
+            <td>{{ e.category }}</td>
+            <td>{{ e.amount }}</td>
+            <td>{{ e.expense_date }}</td>
+            <td>
+                <a href="/delete/{{ e.id }}" class="btn danger">Delete</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
