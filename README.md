@@ -132,9 +132,9 @@ docker run -p 5000:5000 edufin-app
 
 This project was collaboratively developed by:
 
-Shashank Bangaru (Me)
+# Shashank Bangaru (Me)
 
-Sai Kumar Chintala (Development Teammate)
+# Sai Kumar Chintala (Development Teammate)
 
 All tasks including:
 
@@ -152,5 +152,5 @@ were shared efficiently to ensure quick and effective teamwork.
 
 # Conclusion
 
-EduFin is a complete, minimal Flask web application with real-world relevance.
-It follows standard software engineering practices, clean coding principles, and fulfills all academic project requirements while remaining simple, scalable, and easy to understand.
+# EduFin is a complete, minimal Flask web application with real-world relevance.
+# It follows standard software engineering practices, clean coding principles, and fulfills all academic project requirements while remaining simple, scalable, and easy to understand.
