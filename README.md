@@ -113,7 +113,7 @@ Run the following command in Git Bash / Terminal:
 pip install -r requirements.txt
 
 # Step 2: Start the application
-python app.py
+python app.py(make sure to run the application in respective python directory)
 
 
 The application will run on:
